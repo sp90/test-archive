@@ -36,7 +36,7 @@ const server = Bun.serve({
       });
     }
 
-    const file = Bun.file('./index.html');
+    const file = Bun.file('./write-archive.html');
     return new Response(file, {
       headers: {
         'content-type': 'text/html',
