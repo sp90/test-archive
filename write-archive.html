@@ -51,6 +51,8 @@
             passphrase: null,
           });
 
+          console.log(archiveFile);
+
           const archive = await Archive.open(archiveFile);
           //console.log(await archive.getFilesArray());
           obj = await archive.extractFiles();
