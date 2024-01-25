@@ -1,15 +1,34 @@
 # test-archive
 
-To install dependencies:
+To run the code run
 
-```bash
-bun install
+Its a compiled single executable to run the server to avoid the need for dependencies
+
+```
+./run-server
 ```
 
-To run:
+## Build or run your self
 
-```bash
+#### Install bun `1.0.25`
+
+```
+curl -fsSL https://bun.sh/install | bash
+```
+
+#### Run server
+
+```
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.25. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+#### Watch server
+
+```
+bun run --watch index.ts
+```
+
+#### Compile single executable 
+```
+bun build ./index.ts --compile --outfile run-server
+```
