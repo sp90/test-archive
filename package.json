@@ -1,0 +1,14 @@
+{
+  "name": "test-archive",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "libarchive.js": "2.0.1"
+  }
+}
